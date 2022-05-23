@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".InfoActivity"
+    android:padding="10dp"
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="회사소개"
+        android:layout_margin="10dp"
+        android:textSize="32dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:id="@+id/title_info"/>
+
+    <ImageView
+        android:id="@+id/img_info"
+        android:layout_width="wrap_content"
+        android:layout_height="400dp"
+        android:layout_below="@id/title_info"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/info1" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txt_info"
+        android:text="인간이 가장 잘하는 창조와 혁신을 마음껏 펼칠 수 있도록 하는 것이 목적입니다"
+        android:layout_marginVertical="10dp"
+        android:layout_below="@id/img_info"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="버튼"
+        android:id="@+id/btn_info_back"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/txt_info"/>
+
+</RelativeLayout>
