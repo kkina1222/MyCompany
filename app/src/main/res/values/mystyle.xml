@@ -6,6 +6,7 @@
     <item name="android:textColor">#68A7AD</item>
     <item name="android:gravity">center</item>
     <item name="android:background">#99C4C8</item>
+    <item name="android:padding">10dp</item>
 </style>
 
 <style name="title30_style" parent="Theme.AppCompat.Light">
